@@ -1,0 +1,32 @@
+/*Header starting here*/
+header{
+  background: $torqis-blue;
+  height: 70px;
+  padding: 0px 15px;
+  .search-block{
+    height: 70px;
+    #searchForm {
+      width: 100%;
+      input[type='text'] {
+        background-color: rgba(255,255,255,0.2);
+        background-image: url(../images/magnifyer.png);
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: calc(100% - 12px);
+        border: 0px;
+        border-bottom: solid 1px #7ab7b7;
+        color: #fff;
+        width: 100%;
+        outline: none;
+        height: 36px;
+        font-size: 15px;
+        font-weight: 100;
+        border-radius: 30px;
+        text-indent: 15px;
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: $white;
+        }
+      }
+    }
+  }
+}

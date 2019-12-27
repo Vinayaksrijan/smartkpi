@@ -1,0 +1,61 @@
+
+.-semi,
+.get-started-block h2,
+.api-description h2,
+.campaign-details h2 {
+  font-family: "proxima-semibold", Arial, sans-serif;
+}
+
+// .full-screen-banner.banner h1, .heading1 {
+//   font: 4.618em/1.2em "proxima-black", Arial, sans-serif !important;
+// }
+
+h1, .heading1 {
+  font: 1.618em/1.2em "proxima-black", Arial, sans-serif; text-transform: uppercase;
+}
+h1.-sub, .heading1.-sub, .cases h1, .case-view .header h1 {
+  font: 1.618em/1.2em "proxima-bold", Arial, sans-serif;
+}
+
+@include desktop{
+  h1, .heading1 {
+    font: 2.618em/1.2em "proxima-black", Arial, sans-serif; text-transform: uppercase;
+  }
+  h1.-sub, .heading1.-sub, .cases h1, .case-view .header h1 {
+    font: 2.618em/1.2em "proxima-bold", Arial, sans-serif;
+  }
+}
+
+h2, .heading2 {
+  font: 1.7em/1.2em "proxima-bold", Arial, sans-serif;
+}
+h2.-semi, .get-started-block h2,
+.api-description h2, .campaign-details h2, .heading2.-semi,
+.get-started-block h2.heading2, .api-description h2.heading2,
+.campaign-details h2.heading2 {
+  font-family: "proxima-semibold", Arial, sans-serif;
+}
+
+h3, .heading3, .banner .description, .mobile-context a,
+.-static .page .description, .get-started-page .description,
+.about.-section-1 .description, .text-process span, .no-case-found,
+.contact .field textarea, .contact .field input[type="text"],
+.contact .field input[type="email"],
+.contact .field input[type="tel"] {
+  font: 1.3em/1.4em "proxima-semibold", Arial, sans-serif;
+}
+
+h4, .heading4, .feature-list h4, .case-view .body .related-solutions h4 a {
+  font: 1.125em/1.4em "proxima-semibold", Arial, sans-serif;
+}
+
+.heading5, h5, .button, .api-rates-request .reloading-wallet p, .navigation-secondary a, .-static .page .preamble, .-static .page .filters .label, .filters .-static .page .label, .-static .page .case-cursor .cursor:before, .case-cursor .-static .page .cursor:before, .home .home-context-menu, .home .home-navigation li, .get-started-page .preamble, .get-started-page .filters .label, .filters .get-started-page .label, .get-started-page .case-cursor .cursor:before, .case-cursor .get-started-page .cursor:before, .steps .detail .fine-print, .-static .wallet .side-block .column h4 + p, .case-count, .cases p, .filters li, .cases-list span, .case-view .dev-partners p { font: 0.85em/1.4em "proxima-bold", Arial, sans-serif; }
+.heading5.-semi, h5.-semi, .-semi.button, .get-started-block h2.button, .api-description h2.button, .campaign-details h2.button, .api-rates-request .reloading-wallet p.-semi, .get-started-block h2.heading5, .get-started-block .-static .page h2.preamble, .-static .page .get-started-block h2.preamble, .get-started-block .-static .page .filters h2.label, .-static .page .filters .get-started-block h2.label, .get-started-block .filters .-static .page h2.label, .filters .-static .page .get-started-block h2.label, .get-started-block .-static .page .case-cursor h2.cursor:before, .-static .page .case-cursor .get-started-block h2.cursor:before, .get-started-block .case-cursor .-static .page h2.cursor:before, .case-cursor .-static .page .get-started-block h2.cursor:before, .get-started-block .home h2.home-context-menu, .home .get-started-block h2.home-context-menu, .get-started-block .get-started-page h2.preamble, .get-started-page .get-started-block h2.preamble, .get-started-block .get-started-page .filters h2.label, .get-started-page .filters .get-started-block h2.label, .get-started-block .filters .get-started-page h2.label, .filters .get-started-page .get-started-block h2.label, .get-started-block .get-started-page .case-cursor h2.cursor:before, .get-started-page .case-cursor .get-started-block h2.cursor:before, .get-started-block .case-cursor .get-started-page h2.cursor:before, .case-cursor .get-started-page .get-started-block h2.cursor:before, .get-started-block .steps .detail h2.fine-print, .steps .detail .get-started-block h2.fine-print, .get-started-block h2.case-count, .navigation-secondary a, .api-description h2.heading5, .api-description .-static .page h2.preamble, .-static .page .api-description h2.preamble, .api-description .-static .page .filters h2.label, .-static .page .filters .api-description h2.label, .api-description .filters .-static .page h2.label, .filters .-static .page .api-description h2.label, .api-description .-static .page .case-cursor h2.cursor:before, .-static .page .case-cursor .api-description h2.cursor:before, .api-description .case-cursor .-static .page h2.cursor:before, .case-cursor .-static .page .api-description h2.cursor:before, .api-description .home h2.home-context-menu, .home .api-description h2.home-context-menu, .api-description .get-started-page h2.preamble, .get-started-page .api-description h2.preamble, .api-description .get-started-page .filters h2.label, .get-started-page .filters .api-description h2.label, .api-description .filters .get-started-page h2.label, .filters .get-started-page .api-description h2.label, .api-description .get-started-page .case-cursor h2.cursor:before, .get-started-page .case-cursor .api-description h2.cursor:before, .api-description .case-cursor .get-started-page h2.cursor:before, .case-cursor .get-started-page .api-description h2.cursor:before, .api-description .steps .detail h2.fine-print, .steps .detail .api-description h2.fine-print, .api-description h2.case-count, .-static .page .-semi.preamble, .-static .page .get-started-block .filters h2.label, .filters .get-started-block .-static .page h2.label, .-static .page .get-started-block .case-cursor h2.cursor:before, .case-cursor .get-started-block .-static .page h2.cursor:before, .-static .page .api-description .filters h2.label, .filters .api-description .-static .page h2.label, .-static .page .api-description .case-cursor h2.cursor:before, .case-cursor .api-description .-static .page h2.cursor:before, .-static .page .filters .-semi.label, .filters .-static .page .-semi.label, .-static .page .filters .campaign-details h2.label, .filters .campaign-details .-static .page h2.label, .-static .page .campaign-details .filters h2.label, .campaign-details .filters .-static .page h2.label, .-static .page .case-cursor .-semi.cursor:before, .case-cursor .-static .page .-semi.cursor:before, .-static .page .case-cursor .campaign-details h2.cursor:before, .case-cursor .campaign-details .-static .page h2.cursor:before, .-static .page .campaign-details .case-cursor h2.cursor:before, .campaign-details .case-cursor .-static .page h2.cursor:before, .-static .page .campaign-details h2.preamble, .campaign-details .-static .page h2.preamble, .home .-semi.home-context-menu, .home .campaign-details h2.home-context-menu, .campaign-details .home h2.home-context-menu, .home .home-navigation li, .get-started-page .-semi.preamble, .get-started-page .get-started-block .filters h2.label, .filters .get-started-block .get-started-page h2.label, .get-started-page .get-started-block .case-cursor h2.cursor:before, .case-cursor .get-started-block .get-started-page h2.cursor:before, .get-started-page .api-description .filters h2.label, .filters .api-description .get-started-page h2.label, .get-started-page .api-description .case-cursor h2.cursor:before, .case-cursor .api-description .get-started-page h2.cursor:before, .get-started-page .filters .-semi.label, .filters .get-started-page .-semi.label, .get-started-page .filters .campaign-details h2.label, .filters .campaign-details .get-started-page h2.label, .get-started-page .campaign-details .filters h2.label, .campaign-details .filters .get-started-page h2.label, .get-started-page .case-cursor .-semi.cursor:before, .case-cursor .get-started-page .-semi.cursor:before, .get-started-page .case-cursor .campaign-details h2.cursor:before, .case-cursor .campaign-details .get-started-page h2.cursor:before, .get-started-page .campaign-details .case-cursor h2.cursor:before, .campaign-details .case-cursor .get-started-page h2.cursor:before, .get-started-page .campaign-details h2.preamble, .campaign-details .get-started-page h2.preamble, .steps .detail .-semi.fine-print, .steps .detail .campaign-details h2.fine-print, .campaign-details .steps .detail h2.fine-print, .-static .wallet .side-block .column h4 + p.-semi, .-semi.case-count, .campaign-details h2.case-count, .cases p.-semi, .filters li.-semi, .cases-list span.-semi, .case-view .dev-partners p.-semi, .campaign-details h2.heading5, .campaign-details .-static .page .filters h2.label, .filters .-static .page .campaign-details h2.label, .campaign-details .-static .page .case-cursor h2.cursor:before, .case-cursor .-static .page .campaign-details h2.cursor:before, .campaign-details .get-started-page .filters h2.label, .filters .get-started-page .campaign-details h2.label, .campaign-details .get-started-page .case-cursor h2.cursor:before, .case-cursor .get-started-page .campaign-details h2.cursor:before { font-family: "proxima-semibold", Arial, sans-serif; }
+
+h6, .heading6, .preamble, .filters .label, .case-cursor .cursor:before, .segment .head, .contact .sent:before, .contact .side-block strong, .context a, .resources .pill { font: 0.618em/1.7em "proxima-bold", Arial, sans-serif; }
+h6.-semi, .heading6.-semi, .-semi.preamble, .get-started-block h2.preamble, .get-started-block .filters h2.label, .filters .get-started-block h2.label, .get-started-block .case-cursor h2.cursor:before, .case-cursor .get-started-block h2.cursor:before, .api-description h2.preamble, .api-description .filters h2.label, .filters .api-description h2.label, .api-description .case-cursor h2.cursor:before, .case-cursor .api-description h2.cursor:before, .filters .-semi.label, .filters .campaign-details h2.label, .campaign-details .filters h2.label, .case-cursor .-semi.cursor:before, .case-cursor .campaign-details h2.cursor:before, .campaign-details .case-cursor h2.cursor:before, .campaign-details h2.preamble, .get-started-block .segment h2.head, .segment .get-started-block h2.head, .get-started-block .contact h2.sent:before, .contact .get-started-block h2.sent:before, .api-description .segment h2.head, .segment .api-description h2.head, .api-description .contact h2.sent:before, .contact .api-description h2.sent:before, .segment .-semi.head, .segment .campaign-details h2.head, .campaign-details .segment h2.head, .contact .-semi.sent:before, .contact .campaign-details h2.sent:before, .campaign-details .contact h2.sent:before, .contact .side-block strong.-semi, .get-started-block h2.heading6, .get-started-block .resources h2.pill, .resources .get-started-block h2.pill, .context a, .api-description h2.heading6, .api-description .resources h2.pill, .resources .api-description h2.pill, .resources .-semi.pill, .resources .campaign-details h2.pill, .campaign-details .resources h2.pill, .campaign-details h2.heading6 { font-family: "proxima-semibold", Arial, sans-serif; }
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}

@@ -1,0 +1,57 @@
+@import "mixins";
+
+.icon{
+	background-repeat: no-repeat;
+	background-size: 80%;
+	display: block;
+	background-position: center;
+	&-xsm{
+		width: 16px;
+		height: 16px;
+	}
+	&-sm{
+		width: 32px;
+		height: 32px;
+	}
+	&-md{
+		width: 45px;
+		height: 45px;
+	}
+	&-lg{
+		width: 64px;
+		height: 64px;
+	}
+	&-xlg{
+		width: 128px;
+		height: 128px;
+	}
+
+	&-user{
+		background-image: url("../images/user-icon.png");
+		opacity: .6;
+	}
+
+	&-team{
+		background-image: url("../images/team-icon.png");
+		opacity: .6;
+	}
+
+	&-org{
+		background-image: url("../images/organisation.png");
+		opacity: .6;
+	}
+
+	&-gridview{
+		background-image: url("../images/gridview-icon.png");
+	}
+
+	&-checked{
+		background-image: url("../images/checked.png");
+	}
+	&-date{
+		background-image: url("../images/history.png");
+	}
+}
+
+/* Sprite Positions */
+

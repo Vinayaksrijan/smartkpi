@@ -1,0 +1,42 @@
+@mixin mobile48 {
+    @media  only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mobile64 {
+    @media  only screen and (max-width: 640px) {
+        @content;
+    }
+}
+
+
+// @mixin mobile {
+//     @media  only screen and (max-width: 768px) {
+//         @content;
+//     }
+// }
+
+@mixin mobileport {
+    @media  only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablandscape {
+    @media  only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media  only screen and (min-width: 769px) {
+        @content;
+    }
+}
+
+@mixin landscape{
+  @media only screen and (min-width:1024px){
+    @content;
+  }
+}

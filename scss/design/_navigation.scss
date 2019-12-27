@@ -1,0 +1,36 @@
+.sidebar-menu{
+  ul {
+    padding: 0px;
+    li {
+      list-style: none;
+      text-transform: uppercase;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 1px #43278a;
+
+      .icon {
+        margin: auto;
+      }
+
+      a {
+        color: $white;
+        opacity: .7;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .dropdown {
+        position: absolute;
+        transition: 0.3s all ease-in-out;
+        background: white;
+        left: -250%;
+
+        &::hover {
+          left: 250%;
+        }
+      }
+    }
+  }
+}

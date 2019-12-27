@@ -1,0 +1,55 @@
+.main-sidebar{
+  background: $dark-blue;
+  position: fixed;
+  left: 0px;
+  width: 100px;
+  top: 0px;
+  bottom: 0px;
+  .sidebar{
+    .brand-logo{
+      max-width: 100px;
+      height: 70px;
+      padding: 10px;
+      display: flex;
+      .logo{
+        width: 100%;
+      }
+    }
+
+    .user-panel{
+      background: rgb(49, 25, 111);
+      padding: 0px 10px 10px;
+      .profile-pic{
+        padding: 4px;
+      }
+      .profile-name{
+        text-transform: uppercase;
+        color:$white;
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-align: center;
+        opacity: .7;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px){
+  .container {
+    max-width: 1920px!important;
+    padding: 0px!important;
+  }
+}
+
+.main-content-wrapper{
+  margin-left: 100px;
+  .content-wrapper{
+    margin: 15px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    background: #fff;
+    height: 90vh;
+    padding: 15px;
+  }
+}
